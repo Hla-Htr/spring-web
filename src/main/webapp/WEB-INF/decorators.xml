@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+    <decorator name="web" page="web.jsp"></decorator>
+    <decorator name="admin" page="admin.jsp">
+        <pattern>/giay/create</pattern>
+        <pattern>/giay/add</pattern>
+    </decorator>
+</decorators>
